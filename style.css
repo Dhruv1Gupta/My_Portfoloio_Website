@@ -303,9 +303,29 @@ span {
   width: 75%;
   animation: javascript 4.5s;
 }
-.skills-bar .bar .cplusplus {
+.skills-bar .bar .python {
+  width: 95%;
+  animation: python 5s;
+}
+.skills-bar .bar .mySQL {
+  width: 90%;
+  animation: mySQL 5s;
+}
+.skills-bar .bar .postgreSQL {
   width: 80%;
-  animation: cplusplus 5s;
+  animation: postgreSQL 5s;
+}
+.skills-bar .bar .django {
+  width: 75%;
+  animation: django 5s;
+}
+.skills-bar .bar .bootstrap {
+  width: 70%;
+  animation: bootstrap 5s;
+}
+.skills-bar .bar .reactJS {
+  width: 80%;
+  animation: reactJS 5s;
 }
 
 /* Animations of Skills*/
@@ -481,13 +501,9 @@ span {
   transform: scale(1.02);
 }
 
-.services-box i {
-  font-size: 7rem;
-  color: var(--main-color);
-}
-
 .services-box h3 {
-  font-size: 2.6rem;
+  font-size: 3.6rem;
+  color: var(--main-color);
 }
 
 .services-box p {
