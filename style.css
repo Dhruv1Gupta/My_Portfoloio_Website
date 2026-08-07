@@ -354,7 +354,55 @@ span {
     width: 75%;
   }
 }
-@keyframes cplusplus {
+@keyframes ‎python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+@keyframes ‎‎mySQL {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes ‎‎‎postgreSQL {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes ‎‎‎‎django {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes ‎‎‎‎‎bootstrap {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes ‎‎‎‎‎‎tailwindCSS {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes ‎‎‎‎‎‎‎reactJS {
   0% {
     width: 0%;
   }
