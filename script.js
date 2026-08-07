@@ -8,7 +8,6 @@ menuIcon.addEventListener("click", () => {
 });
 
 /* ========== scroll sections active link ========= */
-
 let sections = document.querySelectorAll("section");
 let navLinks = document.querySelectorAll("header nav a");
 
@@ -30,19 +29,17 @@ window.onscroll = () => {
       });
     }
   });
+  
   /* ========== sticky navbar ========= */
-
   let header = document.querySelector("header");
   header.classList.toggle("sticky", window.screenY > 100);
 
   /* ========== remove toggle icon and  navbar when click navbar link (scroll)========= */
-
   menuIcon.classList.remove("bx-x");
   navBar.classList.remove("active");
 };
 
 // Circle Skilss
-
 const Circles = document.querySelectorAll(".circle");
 Circles.forEach((e) => {
   let dots = e.getAttribute("data-dots");
@@ -104,9 +101,8 @@ ScrollReveal().reveal(".home-content h1, .about-img", { origin: "left" });
 ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 
 /*******  Typed Js  *********/
-
 const typed = new Typed(".multiple-text", {
-  strings: ["Frontend Developer.", "Programmer."],
+  strings: ["Programmer.", "Web Developer.", "Frontend Developer.", "Backend Developer.", "Full-Stack Developer."],
   typeSpeed: 150,
   backSpeed: 100,
   backDelay: 1000,
