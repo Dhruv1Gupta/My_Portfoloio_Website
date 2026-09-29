@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dhruv Gupta | Python Full Stack Developer (Generative AI)</title>
+<meta name="description" content="Dhruv Gupta, Python Full Stack Developer in Bangalore. Django REST Framework, ReactJS, MySQL/PostgreSQL and Generative AI (LLMs, RAG). See live projects and download my resume.">
+<meta property="og:title" content="Dhruv Gupta | Python Full Stack Developer (Generative AI)">
+<meta property="og:description" content="Django REST, ReactJS, SQL and Generative AI. Live projects, skills and resume.">
+<meta property="og:type" content="website">
+<link rel="icon" href="portfolio.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header">
+  <a href="#home" class="logo"><span>P</span>ortfolio</a>
+  <button id="menu-btn" aria-label="Open menu" aria-expanded="false">Menu</button>
+  <nav class="navbar" aria-label="Main">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+    <a href="#journey">Training</a><a href="#education">Education</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="main">
+<section class="home" id="home">
+  <div class="home-content">
+    <p class="hello">Hello, I'm</p>
+    <h1>Dhruv Gupta</h1>
+    <h2>Python Full Stack Developer<br><span class="typed" id="typed"></span></h2>
+    <p class="lead">I build REST APIs with Django, responsive interfaces with React, and I'm adding LLM and RAG skills to that stack. My latest work is a Netflix-style streaming app with JWT authentication and a real-time Firebase chat app, both live.</p>
+    <div class="actions">
+      <a href="#projects" class="btn">View projects</a>
+      <a href="Dhruv_Gupta_Resume.pdf" class="btn ghost" download>Download resume</a>
+      <a href="#contact" class="btn ghost">Hire me</a>
+    </div>
+    <div class="social" aria-label="Profiles">
+      <a href="https://github.com/Dhruv1Gupta" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/dhruv-gupta289" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:dhruvg753@gmail.com">Email</a>
+    </div>
+  </div>
+  <img class="photo" src="dhruv.webp" alt="Portrait of Dhruv Gupta" width="413" height="531">
+</section>
+
+<section class="about" id="about">
+  <h2 class="heading">About me</h2>
+  <div class="about-grid">
+    <p>I'm a Python Full Stack Developer based in Bangalore. On the backend I work with Python and Django REST Framework, design MySQL and PostgreSQL schemas, and secure APIs with JWT. On the frontend I build responsive React apps with Hooks, Context API and React Router.</p>
+    <p>I'm currently training in Generative AI: NLP, PyTorch, LLMs, prompt engineering, LangChain and AutoGen agents, and RAG. I also have a Data Science and ML base (pandas, scikit-learn, Streamlit). I'm looking for a full stack or GenAI developer role where I can ship production-quality features.</p>
+  </div>
+  <ul class="facts">
+    <li><strong>Role</strong>Python Full Stack (GenAI)</li>
+    <li><strong>Location</strong>Bangalore, India</li>
+    <li><strong>Degree</strong>B.Tech CSE, 2025</li>
+    <li><strong>Live projects</strong>Netflix Clone, Chat App</li>
+  </ul>
+</section>
+
+<section id="skills">
+  <h2 class="heading">Skills</h2>
+  <div class="skill-grid">
+    <div class="skill-card"><h3>Backend</h3><ul><li>Python</li><li>Django REST Framework</li><li>REST APIs</li><li>JWT Authentication</li><li>CRUD</li><li>MVC</li></ul></div>
+    <div class="skill-card"><h3>Frontend</h3><ul><li>ReactJS (Hooks, Context API, React Router)</li><li>Vite</li><li>JavaScript</li><li>HTML5</li><li>CSS3 / SCSS</li><li>Axios</li><li>Bootstrap</li><li>TailwindCSS</li></ul></div>
+    <div class="skill-card"><h3>Databases</h3><ul><li>MySQL</li><li>PostgreSQL</li><li>Database design</li><li>DDL / DML</li><li>Query optimization</li></ul></div>
+    <div class="skill-card gen"><h3>Generative AI (in training)</h3><ul><li>LLMs</li><li>Prompt engineering</li><li>RAG</li><li>LangChain</li><li>AutoGen</li><li>PyTorch</li><li>NLP</li><li>LLMOps</li></ul></div>
+    <div class="skill-card"><h3>Data science and ML</h3><ul><li>NumPy</li><li>Pandas</li><li>Matplotlib / Seaborn</li><li>scikit-learn</li><li>Regression and classification</li><li>Random Forest</li><li>K-Means</li><li>SMOTE</li><li>Streamlit</li></ul></div>
+    <div class="skill-card"><h3>Tools</h3><ul><li>Git and GitHub</li><li>VS Code</li><li>Postman</li><li>Netlify</li><li>Linux (Ubuntu)</li><li>OOP</li><li>API development</li></ul></div>
+  </div>
+</section>
+
+<section class="alt" id="projects">
+  <h2 class="heading">Projects</h2>
+  <div class="featured">
+    <article class="feature">
+      <h3>Netflix Clone: streaming web app</h3>
+      <p class="stack">ReactJS, Vite, SCSS, Axios, React Router, Context API, JWT, Django REST API</p>
+      <ul>
+        <li>Streaming UI with hero banner, genre rows, live search, multi-genre filters, sorting and skeleton loaders, backed by a Django REST API.</li>
+        <li>JWT signup, login and logout. Axios interceptors refresh expired tokens silently and retry the failed request once. Admin and edit pages sit behind protected routes.</li>
+        <li>Full movie CRUD with a shared add/edit form, validation, delete confirmation, toasts and an admin table with search and CSV export.</li>
+        <li>Watchlist, recently viewed, star ratings, dark/light theme and offline banner; handles free-tier backend cold starts.</li>
+      </ul>
+      <div class="actions"><a class="btn" href="https://netflixclone-eta-green.vercel.app/" target="_blank" rel="noopener">Live demo</a><a class="btn ghost" href="https://github.com/Dhruv1Gupta/Netflix_Clone" target="_blank" rel="noopener">Source code</a></div>
+    </article>
+    <article class="feature">
+      <h3>Chat Application: real-time messaging</h3>
+      <p class="stack">ReactJS, Firebase Auth and Firestore, React Router, SCSS</p>
+      <ul>
+        <li>One-to-one messaging with Firestore snapshot listeners, so messages appear instantly without reloading.</li>
+        <li>Firebase Auth with protected routes that limit the app to signed-in users.</li>
+        <li>Message editing, deletion and emoji reactions through structured Firestore CRUD, plus live presence and a theme switcher. Deployed on Netlify.</li>
+      </ul>
+      <div class="actions"><a class="btn" href="https://chatapp-2026.netlify.app/" target="_blank" rel="noopener">Live demo</a><a class="btn ghost" href="https://github.com/Dhruv1Gupta/Chat_Application" target="_blank" rel="noopener">Source code</a></div>
+    </article>
+  </div>
+  <h3 class="sub">Earlier frontend work</h3>
+  <div class="cards">
+    <a class="card" href="https://dhruv1gupta.github.io/myCalculator/" target="_blank" rel="noopener"><img src="calculator.webp" alt="Calculator app screenshot" loading="lazy"><h4>Calculator</h4><p>HTML, CSS and JavaScript calculator.</p></a>
+    <a class="card" href="https://dhruv1gupta.github.io/password_generator/" target="_blank" rel="noopener"><img src="password_generator.webp" alt="Password generator screenshot" loading="lazy"><h4>Password Generator</h4><p>Responsive tool that builds strong passwords.</p></a>
+    <a class="card" href="https://dhruv1gupta.github.io/myntra_clone/" target="_blank" rel="noopener"><img src="myntra_clone.webp" alt="Myntra clone screenshot" loading="lazy"><h4>Myntra Clone</h4><p>Functional shopping UI in HTML, CSS and JS.</p></a>
+    <a class="card" href="https://dhruv1gupta.github.io/landing_page/" target="_blank" rel="noopener"><img src="landing_page.webp" alt="Gaming landing page screenshot" loading="lazy"><h4>Gaming Landing Page</h4><p>Responsive, interactive console showcase.</p></a>
+    <a class="card" href="https://dhruv1gupta.github.io/white_board/" target="_blank" rel="noopener"><img src="white_board.webp" alt="Online whiteboard screenshot" loading="lazy"><h4>Online Whiteboard</h4><p>Draw on a canvas with a real-whiteboard feel.</p></a>
+    <a class="card" href="https://dhruv1gupta.github.io/bat_ball_stump_game/" target="_blank" rel="noopener"><img src="bat_ball_stump.webp" alt="Bat, ball and stump game screenshot" loading="lazy"><h4>Bat, Ball &amp; Stump</h4><p>Browser cricket game in JavaScript.</p></a>
+  </div>
+  <p class="note">This portfolio is also a project: <a href="https://github.com/Dhruv1Gupta/My_Portfoloio_Website" target="_blank" rel="noopener">view its source</a>.</p>
+</section>
+
+<section id="journey">
+  <h2 class="heading">Training and certifications</h2>
+  <ol class="timeline">
+    <li><time>Apr 2026 to Oct 2026</time><h3>Python Full Stack Development, Besant Technologies, Bangalore</h3><p>Python, Django REST Framework, MySQL, PostgreSQL, HTML5, CSS3, JavaScript, ReactJS, Bootstrap, TailwindCSS, Git, GitHub, Ubuntu.</p></li>
+    <li><time>Aug 2026 to Dec 2026</time><h3>Generative AI, Evarcity Elearning, Bangalore</h3><p>NLP, Deep Learning (PyTorch), LLMs, prompt engineering, AI agents (LangChain, AutoGen), RAG, LLMOps. Includes Data Science and ML: pandas, NumPy, scikit-learn, model evaluation, SMOTE and Streamlit deployment.</p></li>
+  </ol>
+</section>
+
+<section class="alt" id="education">
+  <h2 class="heading">Education</h2>
+  <div class="cards edu">
+    <div class="card"><h4>B.Tech, Computer Science &amp; Engineering</h4><p>Future Institute of Engineering and Technology, Bareilly, UP</p><p class="meta">2021 to 2025 | CGPA 7.54</p></div>
+    <div class="card"><h4>Class XII (PCM, CBSE)</h4><p>Blooming Dale School, Budaun, UP</p><p class="meta">2020 to 2021 | 72.20%</p></div>
+    <div class="card"><h4>Class X (CBSE)</h4><p>Florence Nightingale Public School, Budaun, UP</p><p class="meta">2018 to 2019 | 65.40%</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="heading">Contact</h2>
+  <p class="center">Open to Python Full Stack and Generative AI developer roles. Write to me and I'll reply by email.</p>
+  <form id="contact-form" novalidate>
+    <label>Full name<input type="text" name="name" autocomplete="name" required></label>
+    <label>Email address<input type="email" name="email" autocomplete="email" required></label>
+    <label>Subject<input type="text" name="subject" required></label>
+    <label>Message<textarea name="message" rows="6" required></textarea></label>
+    <button class="btn" type="submit">Send message</button>
+    <p id="form-msg" role="status"></p>
+  </form>
+  <p class="center small">Or reach me directly: <a href="mailto:dhruvg753@gmail.com">dhruvg753@gmail.com</a> | <a href="tel:+918864859738">+91 88648 59738</a></p>
+</section>
+</main>
+
+<footer class="footer">
+  <p>&copy; 2026 Dhruv Gupta</p>
+  <a href="#home">Back to top</a>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
